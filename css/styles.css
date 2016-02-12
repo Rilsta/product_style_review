@@ -34,34 +34,42 @@ a{
 #banner_img{
   width:1500px;
   border-radius: 50px;
+  margin-bottom: 25px;
 }
 
 #banner_text_main{
   position:absolute;
-  left:115px;
-  top:240px;
-  font-size: 100px;
+  left:415px;
+  top:230px;
+  font-size: 150px;
   font-family: 'Raleway', sans-serif;
   color: #FFFFF7;
+  text-shadow: 3px 3px #3C3741;
 }
 
 #banner_text_second{
   position:absolute;
-  left:900px;
-  top:380px;
+  left:500px;
+  top:500px;
   font-size: 35px;
   font-family: 'Raleway', sans-serif;
   color: #FFFFF7;
+  text-shadow: 3px 3px #3C3741;
 }
 
 #banner_line{
   position:absolute;
   width:1400px;
   height: 2px;
-  background: #FFFFF7;
   border: none;
-  top:400px;
+  top:500px;
   left: 50px;
+  text-shadow: 3px 3px #3C3741;
+  background-image:linear-gradient(to right, rgba(0, 0, 0, 0), rgba(100, 100, 97, 0.9), rgba(0, 0, 0, 0));
+}
+
+.column_lines{
+  width: 950px;
 }
 
 .icon{
@@ -75,7 +83,7 @@ a{
 }
 
 .icon hr{
-  width: 500px;
+  background: #3C3741;
 }
 
 .main{
