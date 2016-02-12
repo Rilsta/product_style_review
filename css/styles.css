@@ -1,0 +1,185 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body{
+  margin:0;
+  padding:0;
+  background-color: #FFFFF7;
+  font-family: 'Raleway', sans-serif;
+  color:#3C3741;
+}
+
+a{
+  text-decoration: none;
+  color:inherit;
+}
+
+.wrap{
+  position: relative;
+  width:1500px;
+  display: block;
+  margin: 0 auto;
+}
+
+.banner{
+  position: relative;
+  width:1500px;
+}
+
+#banner_img{
+  width:1500px;
+  border-radius: 50px;
+}
+
+#banner_text_main{
+  position:absolute;
+  left:115px;
+  top:240px;
+  font-size: 100px;
+  font-family: 'Raleway', sans-serif;
+  color: #FFFFF7;
+}
+
+#banner_text_second{
+  position:absolute;
+  left:900px;
+  top:380px;
+  font-size: 35px;
+  font-family: 'Raleway', sans-serif;
+  color: #FFFFF7;
+}
+
+#banner_line{
+  position:absolute;
+  width:1400px;
+  height: 2px;
+  background: #FFFFF7;
+  border: none;
+  top:400px;
+  left: 50px;
+}
+
+.icon{
+  position: relative;
+}
+
+.icon img{
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+.icon hr{
+  width: 500px;
+}
+
+.main{
+  width: 1500px;
+}
+
+.column1{
+  float:left;
+  width:500px;
+}
+
+.column1 p{
+  font-size: 20px;
+  width:950px;
+}
+
+.column1 h2{
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 45px;
+  float:left;
+  width:950px;
+}
+
+.column1 h3{
+  font-weight: bold;
+  font-size: 35px;
+  float:left;
+  width:900px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.column1 ul{
+  margin-bottom: 30px;
+  padding: 0;
+  font-size: 25px;
+  float:left;
+  width:900px;
+  list-style: none;
+}
+
+.column1 li{
+  margin-top: 20px;
+}
+
+.small_images{
+  width:500px;
+  float:right;
+}
+
+.small_images img{
+  width: 500px;
+  border-radius: 25px;
+}
+
+.column1 .email_form p{
+  width:500px;
+}
+
+form{
+  width:200px;
+  margin: 0px;
+}
+
+label{
+  font-size: 20px;
+}
+
+input, textarea{
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  background: #e5e5ce;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 400px;
+}
+
+input:focus, textarea:focus{
+  background: #e5e5ce;
+  border-radius: 5px;
+  outline: none;
+}
+
+button{
+  outline:none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  width: 400px;
+  margin:0;
+  padding: 15px;
+  border: none;
+  background: #3C3741;
+  color: #FFFFF7;
+  border-radius: 5px;
+}
+
+button:hover{
+  background: #504956;
+  cursor: pointer;
+}
+
+.footer{
+  clear:both;
+}
